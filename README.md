@@ -1,4 +1,4 @@
 # NGS_count
 Count sgRNAs in fastq files
 
-The MPI version is acompanied with a slurm script, which scale up the job across clusters with multiple nodes.
+The MPI version (count_spacers_mpi.py, a distributed version) is acompanied by a slurm script (runmpi.slurm, run on head node with sbatch), which scale up the job across a cluster of multiple nodes. It is suitable for large number of fastq files.
